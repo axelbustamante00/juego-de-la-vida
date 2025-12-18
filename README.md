@@ -8,19 +8,18 @@ Java JDK 8 o superior instalado.
 Compilación
 Desde la terminal, ubicado en la carpeta raíz del proyecto:
 
-Bash
-
 javac src/*.java -d bin
+
 Ejecución
-Bash
 
 java -cp bin Main
+
 📂 Estructura de Archivos Semilla
 El sistema permite cargar estados iniciales desde archivos de texto dentro de la carpeta ejemplos/. El formato requerido es:
 
-Primera línea: filas columnas (enteros).
+1.Primera línea: filas columnas (enteros).
 
-Líneas siguientes: Caracteres que representan el estado (. muerto, X vivo, L latente, E enfermo).
+2.Líneas siguientes: Caracteres que representan el estado (. muerto, X vivo, L latente, E enfermo).
 
 🏗️ Diseño de la Solución
 Arquitectura y Patrones
